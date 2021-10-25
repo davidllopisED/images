@@ -96,7 +96,7 @@ public class MainFormImage extends javax.swing.JFrame {
         BufferedImage originalImage = null;
         try {
             originalImage = ImageIO.read(new File("src/spdvimagen/imagenes/photo1.jpg"));
-            
+
             int desiredWidth= lblViewImage1.getWidth();
             float aspectRadio = (float)originalImage.getWidth() / originalImage.getHeight();
             int desiredHeight=  Math.round(desiredWidth / aspectRadio);
